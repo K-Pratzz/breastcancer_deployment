@@ -37,15 +37,15 @@ symmetry_worst = st.number_input("Enter symmetry_worst", min_value=0.1565, max_v
 fractal_dimension_worst = st.number_input("Enter fractal_dimension_worst", min_value=0.05504, max_value=0.2075)
 
 if st.button("Predict"):
-    data=[[radius_mean, 'texture_mean', 'perimeter_mean',
-       'area_mean', 'smoothness_mean', 'compactness_mean', 'concavity_mean',
-       'concave points_mean', 'symmetry_mean', 'fractal_dimension_mean',
-       'radius_se', 'texture_se', 'perimeter_se', 'area_se', 'smoothness_se',
-       'compactness_se', 'concavity_se', 'concave points_se', 'symmetry_se',
-       'fractal_dimension_se', 'radius_worst', 'texture_worst',
-       'perimeter_worst', 'area_worst', 'smoothness_worst',
-       'compactness_worst', 'concavity_worst', 'concave points_worst',
-       'symmetry_worst', 'fractal_dimension_worst']]
+    data=[[radius_mean,texture_mean,perimeter_mean,
+       area_mean,smoothness_mean,compactness_mean,concavity_mean,
+       concave_points_mean,symmetry_mean,fractal_dimension_mean,
+       radius_se,texture_se,perimeter_se,area_se,smoothness_se,
+       compactness_se,concavity_se,concave_points_se,symmetry_se,
+       fractal_dimension_se,radius_worst,texture_worst,
+       perimeter_worst, area_worst,smoothness_worst,
+       compactness_worst,concavity_worst,concave_points_worst,
+       symmetry_worst,fractal_dimension_worst]]
     
     ans=model.predict(data)
     if ans[0]==1:
