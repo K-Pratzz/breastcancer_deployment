@@ -77,7 +77,7 @@ if st.button("Predict"):
     "smoothness_mean": smoothness_mean,
     "compactness_mean": compactness_mean,
     "concavity_mean": concavity_mean,
-    "concave_points_mean": concave_points_mean,
+    "concave points_mean": concave_points_mean,
     "symmetry_mean": symmetry_mean,
     "fractal_dimension_mean": fractal_dimension_mean,
     "radius_se": radius_se,
@@ -87,7 +87,7 @@ if st.button("Predict"):
     "smoothness_se": smoothness_se,
     "compactness_se": compactness_se,
     "concavity_se": concavity_se,
-    "concave_points_se": concave_points_se,
+    "concave points_se": concave_points_se,
     "symmetry_se": symmetry_se,
     "fractal_dimension_se": fractal_dimension_se,
     "radius_worst": radius_worst,
@@ -97,7 +97,7 @@ if st.button("Predict"):
     "smoothness_worst": smoothness_worst,
     "compactness_worst": compactness_worst,
     "concavity_worst": concavity_worst,
-    "concave_points_worst": concave_points_worst,
+    "concave points_worst": concave_points_worst,
     "symmetry_worst": symmetry_worst,
     "fractal_dimension_worst": fractal_dimension_worst
     }
