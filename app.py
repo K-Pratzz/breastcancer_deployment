@@ -5,14 +5,6 @@ model=joblib.load("BreastCancer_Model.pkl")
 st.title("Breast Cancer Detection")
 st.header("Enter the details")
 
-'''radius_mean=st.number_input("Type your input",min_value=6.9,max_value=28.1)
-texture_mean=st.number_input("Type your input",min_value=9.7,max_value=39.28)
-perimeter_mean=st.number_input("Type your input",min_value=43.79,max_value=188.5)
-area_mean=st.number_input("Type your input",min_value=143.5,max_value=2501.0)
-smoothness_mean=st.number_input("Type your input",min_value=0.05263,max_value=0.1634)
-compactness_mean=st'''
-
-
 radius_mean = st.number_input("Enter radius_mean", min_value=6.981, max_value=28.11)
 texture_mean = st.number_input("Enter texture_mean", min_value=9.71, max_value=39.28)
 perimeter_mean = st.number_input("Enter perimeter_mean", min_value=43.79, max_value=188.5)
